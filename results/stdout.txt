@@ -1,0 +1,79 @@
+[I 2024-10-07 19:31:01.060 ServerApp] jupyter_ai | extension was successfully linked.
+[I 2024-10-07 19:31:01.060 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2024-10-07 19:31:01.063 ServerApp] jupyter_server_mathjax | extension was successfully linked.
+[I 2024-10-07 19:31:01.063 ServerApp] jupyter_server_proxy | extension was successfully linked.
+[I 2024-10-07 19:31:01.065 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2024-10-07 19:31:01.069 ServerApp] jupyterlab | extension was successfully linked.
+[I 2024-10-07 19:31:01.069 ServerApp] jupyterlab_git | extension was successfully linked.
+[I 2024-10-07 19:31:01.071 ServerApp] nbclassic | extension was successfully linked.
+[I 2024-10-07 19:31:01.071 ServerApp] nbdime | extension was successfully linked.
+[I 2024-10-07 19:31:01.072 ServerApp] Writing Jupyter server cookie secret to /home/ubuntu/.local/share/jupyter/runtime/jupyter_cookie_secret
+[I 2024-10-07 19:31:01.077 ServerApp] notebook_shim | extension was successfully linked.
+[W 2024-10-07 19:31:01.219 ServerApp] All authentication is disabled.  Anyone who can connect to this server will be able to run code.
+[I 2024-10-07 19:31:01.219 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2024-10-07 19:31:01.219 AiExtension] Configured provider allowlist: None
+[I 2024-10-07 19:31:01.219 AiExtension] Configured provider blocklist: None
+[I 2024-10-07 19:31:01.219 AiExtension] Configured model allowlist: None
+[I 2024-10-07 19:31:01.219 AiExtension] Configured model blocklist: None
+[I 2024-10-07 19:31:01.219 AiExtension] Configured model parameters: {}
+[I 2024-10-07 19:31:01.234 AiExtension] Registered model provider `ai21`.
+[W 2024-10-07 19:31:01.245 AiExtension] Unable to load model provider `amazon-bedrock`. Please install the `langchain_aws` package.
+[W 2024-10-07 19:31:01.246 AiExtension] Unable to load model provider `amazon-bedrock-chat`. Please install the `langchain_aws` package.
+[W 2024-10-07 19:31:01.246 AiExtension] Unable to load model provider `amazon-bedrock-custom`. Please install the `langchain_aws` package.
+[W 2024-10-07 19:31:01.247 AiExtension] Unable to load model provider `anthropic`. Please install the `langchain_anthropic` package.
+[W 2024-10-07 19:31:01.247 AiExtension] Unable to load model provider `anthropic-chat`. Please install the `langchain_anthropic` package.
+[W 2024-10-07 19:31:01.248 AiExtension] Unable to load model provider `azure-chat-openai`. Please install the `langchain_openai` package.
+[W 2024-10-07 19:31:01.248 AiExtension] Unable to load model provider `cohere`. Please install the `langchain_cohere` package.
+[W 2024-10-07 19:31:01.249 AiExtension] Unable to load model provider `gemini`. Please install the `langchain_google_genai` package.
+[I 2024-10-07 19:31:01.249 AiExtension] Registered model provider `gpt4all`.
+[I 2024-10-07 19:31:01.249 AiExtension] Registered model provider `huggingface_hub`.
+[W 2024-10-07 19:31:01.250 AiExtension] Unable to load model provider `mistralai`. Please install the `langchain_mistralai` package.
+[W 2024-10-07 19:31:01.251 AiExtension] Unable to load model provider `nvidia-chat`. Please install the `langchain_nvidia_ai_endpoints` package.
+[I 2024-10-07 19:31:01.251 AiExtension] Registered model provider `ollama`.
+[W 2024-10-07 19:31:01.252 AiExtension] Unable to load model provider `openai`. Please install the `langchain_openai` package.
+[W 2024-10-07 19:31:01.252 AiExtension] Unable to load model provider `openai-chat`. Please install the `langchain_openai` package.
+[I 2024-10-07 19:31:01.252 AiExtension] Registered model provider `qianfan`.
+[W 2024-10-07 19:31:01.252 AiExtension] Unable to load model provider `sagemaker-endpoint`. Please install the `langchain_aws` package.
+[I 2024-10-07 19:31:01.252 AiExtension] Registered model provider `togetherai`.
+[E 2024-10-07 19:31:01.267 AiExtension] Unable to load embeddings model provider class from entry point `azure`: No module named 'langchain_openai'.
+[E 2024-10-07 19:31:01.268 AiExtension] Unable to load embeddings model provider class from entry point `bedrock`: No module named 'langchain_aws'.
+[E 2024-10-07 19:31:01.268 AiExtension] Unable to load embeddings model provider class from entry point `cohere`: No module named 'langchain_cohere'.
+[I 2024-10-07 19:31:01.268 AiExtension] Registered embeddings model provider `gpt4all`.
+[I 2024-10-07 19:31:01.268 AiExtension] Registered embeddings model provider `huggingface_hub`.
+[E 2024-10-07 19:31:01.268 AiExtension] Unable to load embeddings model provider class from entry point `mistralai`: No module named 'langchain_mistralai'.
+[I 2024-10-07 19:31:01.268 AiExtension] Registered embeddings model provider `ollama`.
+[E 2024-10-07 19:31:01.269 AiExtension] Unable to load embeddings model provider class from entry point `openai`: No module named 'langchain_openai'.
+[I 2024-10-07 19:31:01.269 AiExtension] Registered embeddings model provider `qianfan`.
+[I 2024-10-07 19:31:01.275 AiExtension] Registered providers.
+[I 2024-10-07 19:31:01.275 AiExtension] Registered jupyter_ai server extension
+[I 2024-10-07 19:31:01.291 AiExtension] Initialized Jupyter AI server extension in 72 ms.
+[I 2024-10-07 19:31:01.292 ServerApp] jupyter_ai | extension was successfully loaded.
+[I 2024-10-07 19:31:01.294 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2024-10-07 19:31:01.295 ServerApp] jupyter_server_mathjax | extension was successfully loaded.
+[I 2024-10-07 19:31:01.309 ServerApp] jupyter_server_proxy | extension was successfully loaded.
+[I 2024-10-07 19:31:01.310 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2024-10-07 19:31:01.327 LabApp] JupyterLab extension loaded from /opt/conda/lib/python3.10/site-packages/jupyterlab
+[I 2024-10-07 19:31:01.327 LabApp] JupyterLab application directory is /opt/conda/share/jupyter/lab
+[I 2024-10-07 19:31:01.327 LabApp] Extension Manager is 'pypi'.
+[I 2024-10-07 19:31:01.352 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2024-10-07 19:31:01.359 ServerApp] jupyterlab_git | extension was successfully loaded.
+[I 2024-10-07 19:31:01.366 ServerApp] nbclassic | extension was successfully loaded.
+[I 2024-10-07 19:31:01.457 ServerApp] nbdime | extension was successfully loaded.
+[I 2024-10-07 19:31:01.457 ServerApp] Serving notebooks from local directory: /
+[I 2024-10-07 19:31:01.457 ServerApp] Jupyter Server 2.14.2 is running at:
+[I 2024-10-07 19:31:01.458 ServerApp] http://run-670436d479706e112958388b-7kwq4:8888/jim_admin/WineQuality/notebookSession/670436d479706e112958388b/lab/tree/mnt
+[I 2024-10-07 19:31:01.458 ServerApp]     http://127.0.0.1:8888/jim_admin/WineQuality/notebookSession/670436d479706e112958388b/lab/tree/mnt
+[I 2024-10-07 19:31:01.458 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 2024-10-07 19:31:01.908 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+[W 2024-10-07 19:31:07.248 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2024-10-07 19:31:07.845 ServerApp] Client connected. ID: cecc7d3c88914715ab2beb8dba329d41
+[I 2024-10-07 19:31:14.610 ServerApp] Writing notebook-signing key to /home/ubuntu/.local/share/jupyter/notebook_secret
+[W 2024-10-07 19:31:14.611 ServerApp] Notebook mnt/EDA_code.ipynb is not trusted
+[I 2024-10-07 19:31:15.001 ServerApp] Kernel started: 1e9398f5-1995-4134-bb6b-2c26bb7d7c4d
+[I 2024-10-07 19:31:15.490 ServerApp] Connecting to kernel 1e9398f5-1995-4134-bb6b-2c26bb7d7c4d.
+[I 2024-10-07 19:31:15.714 ServerApp] Starting buffering for 1e9398f5-1995-4134-bb6b-2c26bb7d7c4d:f2e3a69c-65c2-4081-b222-e255df56f53e
+[I 2024-10-07 19:31:15.903 ServerApp] Connecting to kernel 1e9398f5-1995-4134-bb6b-2c26bb7d7c4d.
+[I 2024-10-07 19:31:16.227 ServerApp] Connecting to kernel 1e9398f5-1995-4134-bb6b-2c26bb7d7c4d.
+[I 2024-10-07 19:33:14.917 ServerApp] Saving file at /mnt/EDA_code.ipynb
+[I 2024-10-07 19:33:25.009 ServerApp] Saving file at /mnt/EDA_code.ipynb
+[I 2024-10-07 19:33:35.688 ServerApp] Saving file at /mnt/EDA_code.ipynb
